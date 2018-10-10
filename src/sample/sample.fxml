@@ -15,6 +15,6 @@
     </HBox>
     <Button fx:id="startButton" text="Start" onAction="#printOut"/>
     <Label fx:id="label2" text="Please play 24 game with below input"/>
-    <TextArea fx:id="outputText1"/>
+    <TextArea fx:id="outputText1" prefHeight="30" />
     <TextArea fx:id="outputText2"/>
 </VBox>

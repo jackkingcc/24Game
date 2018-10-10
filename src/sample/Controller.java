@@ -30,6 +30,9 @@ public class Controller {
         modeButton2.setToggleGroup(modeGroup);
         modeButton3.setToggleGroup(modeGroup);
         modeButton4.setToggleGroup(modeGroup);
+        outputText1.setWrapText(true);
+        outputText1.setStyle("-fx-font-size: 20");
+        outputText2.setStyle("-fx-font-size: 15");
     }
 
     @FXML
